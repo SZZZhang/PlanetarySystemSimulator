@@ -1,0 +1,9 @@
+.root{
+    -fx-background-image: url("Graphics/Galaxy_Background.jpg");
+    -fx-spacing: 30;
+
+}
+VBox{
+    -fx-spacing: 7;
+    -fx-alignment: center;
+}

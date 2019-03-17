@@ -1,0 +1,75 @@
+HBox{
+    -fx-spacing: 10px;
+    -fx-alignment: center-left;
+    -fx-padding: 10px;
+}
+
+.button{
+    -fx-min-width: 35px;
+    -fx-min-height: 35px;
+    -fx-background-color: white;
+    -fx-background-radius: 50;
+}
+.button:hover{
+    -fx-background-color: lightgray;
+}
+
+#edit{
+    -fx-background-image: url("Graphics/Edit_Icon.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 28px;
+    -fx-background-position: 5%;
+}
+
+#select{
+    -fx-background-image: url("Graphics/Select_Icon.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 28px;
+    -fx-background-position: 50%;
+}
+
+#rotate{
+    -fx-background-image: url("Graphics/Rotate_Icon.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 28px;
+    -fx-background-position: 50%;
+}
+
+#drag{
+    -fx-background-image: url("Graphics/Drag_Icon.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 28px;
+    -fx-background-position: 50%;
+}
+
+#zoom-in{
+    -fx-background-image: url("Graphics/Zoom_In_Icon.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 28px;
+    -fx-background-position: 50%;
+}
+#zoom-out{
+    -fx-background-image: url("Graphics/Zoom_Out_Icon.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 28px;
+    -fx-background-position: 50%;
+}
+#play{
+    -fx-background-image: url("Graphics/Play_Icon.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 22px;
+    -fx-background-position: 50%;
+
+}
+#pause{
+    -fx-background-image: url("Graphics/Pause_Icon.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 22px;
+    -fx-background-position: 50%;
+}
+#fast-forward{
+    -fx-background-image: url("Graphics/Fast_Forward_Icon.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 22px;
+    -fx-background-position: 50%;
+}

@@ -1,0 +1,10 @@
+HBox{
+    -fx-font-family: "Impact";
+    -fx-alignment: center;
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+}
+VBox{
+    -fx-padding: 5px;
+    -fx-spacing: 3;
+}

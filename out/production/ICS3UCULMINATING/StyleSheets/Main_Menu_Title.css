@@ -1,0 +1,8 @@
+.label {
+    -fx-text-fill: white;
+    -fx-font-family: "Impact";
+    -fx-font-weight: bold;
+    -fx-font-size: 50px;
+    -fx-text-alignment: center;
+    -fx-spacing: 5;
+}

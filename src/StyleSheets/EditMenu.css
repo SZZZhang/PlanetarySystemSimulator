@@ -1,0 +1,33 @@
+.text-field{
+    -fx-min-width: 20;
+    -fx-radius: 50;
+}
+.grid{
+    -fx-padding: 5;
+    -fx-background-color: darkgrey;
+}
+VBox{
+    -fx-alignment: center;
+    -fx-min-width: 200;
+    -fx-min-height: 200;
+    -fx-padding: 5;
+    -fx-spacing: 3;
+}
+HBox{
+    -fx-alignment: center;
+    -fx-padding: 3;
+    -fx-spacing: 3;
+}
+
+.button{
+    -fx-min-width: 250;
+    -fx-background-radius: 30;
+    -fx-background-color: white;
+}
+.button:hover{
+    -fx-background-color: grey;
+}
+
+.button:pressed{
+    -fx-text-fill: white;
+}
